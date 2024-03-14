@@ -263,7 +263,7 @@ STATES = {
 	}
 	s:STATE_HOLLAND = {
 		create_state = {
-			country = c:NET
+			country = c:LUB
 			owned_provinces = {
 				x777732
 				x80C0A0
@@ -632,7 +632,7 @@ STATES = {
 	}
 	s:STATE_POMERANIA = {
 		create_state = {
-			country = c:POL
+			country = c:PRU
 			owned_provinces = {
 				xA9BD82
 				x8C6982
@@ -21372,11 +21372,17 @@ STATES = {
 		create_state = {
 			country = c:FRA
 			owned_provinces = {
+				
+				xB000E0
+				xCC3250
+			}
+		}
+		create_state = {
+			country = c:LUX
+			owned_provinces = {
 				x4899A2
 				xF0C0A0
 				x6E4891
-				xB000E0
-				xCC3250
 			}
 		}
 		add_homeland = cu:french
@@ -21597,7 +21603,7 @@ STATES = {
 	}
 	s:STATE_ELBE = {
 		create_state = {
-			country = c:GER
+			country = c:LUB
 			owned_provinces = {
 				xC08061
 				x68BE66
@@ -21837,7 +21843,7 @@ STATES = {
 	}
 	s:STATE_FRIESLAND = {
 		create_state = {
-			country = c:NET
+			country = c:LUB
 			owned_provinces = {
 				x41C021
 				xC0C021
@@ -21850,7 +21856,7 @@ STATES = {
 	}
 	s:STATE_GELRE = {
 		create_state = {
-			country = c:NET
+			country = c:LUX
 			owned_provinces = {
 				x0000DF
 				xC0C0A0
@@ -21862,7 +21868,7 @@ STATES = {
 	}
 	s:STATE_JUTLAND = {
 		create_state = {
-			country = c:DEN
+			country = c:LUB
 			owned_provinces = {
 				x00BFDF
 				x83E6B1
@@ -21882,7 +21888,7 @@ STATES = {
 	}
 	s:STATE_ZEALAND = {
 		create_state = {
-			country = c:DEN
+			country = c:LUB
 			owned_provinces = {
 				x0CAEA7
 				x7F0BF0
@@ -21895,7 +21901,7 @@ STATES = {
 	}
 	s:STATE_WESTERN_NORWAY = {
 		create_state = {
-			country = c:NOR
+			country = c:SWE
 			owned_provinces = {
 				x68D9BA
 				x79D41F
@@ -21954,7 +21960,7 @@ STATES = {
 	}
 	s:STATE_NORTHERN_NORWAY = {
 		create_state = {
-			country = c:NOR
+			country = c:SWE
 			owned_provinces = {
 				xCD2ECC
 				x4EA73C
@@ -22096,7 +22102,7 @@ STATES = {
 	}
 	s:STATE_EASTERN_NORWAY = {
 		create_state = {
-			country = c:NOR
+			country = c:SWE
 			owned_provinces = {
 				x3AE094
 				xC041E0
@@ -24082,7 +24088,7 @@ STATES = {
 	}
 	s:STATE_WESTERN_THRACE = {
 		create_state = {
-			country = c:GRE
+			country = c:TAN
 			owned_provinces = {
 				xBE51B7
 				x6181D2
@@ -33930,7 +33936,7 @@ STATES = {
 	}
 	s:STATE_ESTONIA = {
 		create_state = {
-			country = c:EST
+			country = c:UBD
 			owned_provinces = {
 				x6D38BF
 				xD29762
@@ -33960,7 +33966,7 @@ STATES = {
 	}
 	s:STATE_LATVIA = {
 		create_state = {
-			country = c:LAT
+			country = c:UBD
 			owned_provinces = {
 				x00A0A0
 				x48F471
@@ -33999,7 +34005,7 @@ STATES = {
 	}
 	s:STATE_LITHUANIA = {
 		create_state = {
-			country = c:LIT
+			country = c:POL
 			owned_provinces = {
 				xF2CB3D
 				x41E061
@@ -45151,7 +45157,7 @@ STATES = {
 	}
 	s:STATE_WEST_SLOVAKIA = {
 		create_state = {
-			country = c:SLV
+			country = c:CZH
 			owned_provinces = {
 				x695F42
 				x516161
@@ -45172,7 +45178,7 @@ STATES = {
 	}
 	s:STATE_EAST_SLOVAKIA = {
 		create_state = {
-			country = c:SLV
+			country = c:CZH
 			owned_provinces = {
 				xC54074
 				xB23DA0
@@ -45509,7 +45515,7 @@ STATES = {
 	}
 	s:STATE_WESTPHALIA = {
 		create_state = {
-			country = c:GER
+			country = c:LUB
 			owned_provinces = {
 				x0180E0
 				x1DD141
@@ -45526,7 +45532,7 @@ STATES = {
 	}
 	s:STATE_ANHALT = {
 		create_state = {
-			country = c:GER
+			country = c:SAX
 			owned_provinces = {
 				xA080E0
 				x12694A
@@ -45648,7 +45654,7 @@ STATES = {
 	}
 	s:STATE_BRANDENBURG = {
 		create_state = {
-			country = c:GER
+			country = c:PRU
 			owned_provinces = {
 				x82F9A8
 				x9E7304
@@ -45667,7 +45673,7 @@ STATES = {
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
 		create_state = {
-			country = c:GER
+			country = c:LUB
 			owned_provinces = {
 				x804160
 				x64824C
@@ -45709,7 +45715,7 @@ STATES = {
 	}
 	s:STATE_HANNOVER = {
 		create_state = {
-			country = c:GER
+			country = c:LUB
 			owned_provinces = {
 				xECC3B4
 				xC00161
@@ -45769,7 +45775,7 @@ STATES = {
 	}
 	s:STATE_SAXONY = {
 		create_state = {
-			country = c:GER
+			country = c:SAX
 			owned_provinces = {
 				x169073
 				x795368
@@ -45790,7 +45796,7 @@ STATES = {
 	}
 	s:STATE_BRUNSWICK = {
 		create_state = {
-			country = c:GER
+			country = c:SAX
 			owned_provinces = {
 				xA001E0
 				x2180E0
@@ -45803,7 +45809,7 @@ STATES = {
 	}
 	s:STATE_HESSE = {
 		create_state = {
-			country = c:GER
+			country = c:NAS
 			owned_provinces = {
 				x11C0A0
 				x1141A0
@@ -46127,7 +46133,7 @@ STATES = {
 	}
 	s:STATE_MECKLENBURG = {
 		create_state = {
-			country = c:GER
+			country = c:LUB
 			owned_provinces = {
 				xD8F441
 				xE080A0
@@ -46138,6 +46144,12 @@ STATES = {
 				xD9A469
 				x567452
 				xE1A03A
+				
+			}
+		}
+		create_state = {
+			country = c:PRU
+			owned_provinces = {
 				xA04121
 			}
 		}
@@ -46474,7 +46486,7 @@ STATES = {
 	####NEW STATES
 	s:STATE_LUBUSZ = {
 		create_state = {
-			country = c:POL
+			country = c:PRU
 			owned_provinces = {
 				xB90BFF
 				xF77289
@@ -46487,7 +46499,7 @@ STATES = {
 	}
 	s:STATE_KALININGRAD = {
 		create_state = {
-			country = c:RUS
+			country = c:POL
 			owned_provinces = {
 				x981EBE
 				xC020A0
@@ -46577,7 +46589,7 @@ STATES = {
 	}
 	s:STATE_NORTHERN_SCHLESWIG = {
 		create_state = {
-			country = c:DEN
+			country = c:LUB
 			owned_provinces = {
 				x78B203
 				xE3C876

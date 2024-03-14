@@ -554,7 +554,7 @@ HOL = {
 }
 
 LUB = {
-	color = { 48  164  51 }
+	color = { 44 158 146 }
 	
 	country_type = recognized
 
@@ -4167,7 +4167,7 @@ TAN = {
 
 	tier = kingdom
 
-	cultures = { maasai }
+	cultures = { turkish }
 	capital = STATE_TANGANYIKA
 }
 
