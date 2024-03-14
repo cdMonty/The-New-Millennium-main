@@ -1,0 +1,362 @@
+﻿POPS = {
+	s:STATE_INGRIA = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 6563788
+			}
+		}
+	}
+	s:STATE_MOSCOW = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 22945635
+			}
+		}
+	}
+	s:STATE_BREST = {
+		region_state:BYE = {
+			create_pop = {
+				culture = byelorussian
+				size = 2434813
+			}
+		}
+	}
+	s:STATE_VOLHYNIA = {
+		region_state:UKR = {
+			create_pop = {
+				culture = ukrainian
+				size = 3964800
+			}
+		}
+	}
+	s:STATE_KIEV = {
+		region_state:UKR = {
+			create_pop = {
+				culture = ukrainian
+				size = 10476200
+			}
+		}
+	}
+	s:STATE_BRYANSK = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 3679997
+			}
+		}
+	}
+	s:STATE_SMOLENSK = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 3363238
+			}
+		}
+	}
+	s:STATE_ORSHA = {
+		region_state:BYE = {
+			create_pop = {
+				culture = byelorussian
+				size = 3611065
+			}
+		}
+	}
+	s:STATE_EAST_KARELIA = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 1250583
+			}
+		}
+	}
+	s:STATE_ARKHANGELSK = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 1167751
+			}
+		}
+	}
+	s:STATE_TVER = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 8232532
+			}
+		}
+	}
+	s:STATE_CRIMEA = {
+		region_state:UKR = {
+			create_pop = {
+				culture = ukrainian
+				size = 2401200
+			}
+		}
+	}
+	s:STATE_LUHANSK = {
+		region_state:UKR = {
+			create_pop = {
+				culture = ukrainian
+				size = 15798300
+			}
+		}
+	}
+	s:STATE_KURSK = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 6928542
+			}
+		}
+	}
+	s:STATE_NOVGOROD = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 6928542
+			}
+		}
+	}
+	s:STATE_CHERSON = {
+		region_state:UKR = {
+			create_pop = {
+				culture = ukrainian
+				size = 8309741
+			}
+		}
+	}
+	s:STATE_GALICH = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 2460138
+			}
+		}
+	}
+	s:STATE_MINSK = {
+		region_state:BYE = {
+			create_pop = {
+				culture = byelorussian
+				size = 4210605
+			}
+		}
+	}
+	s:STATE_ROSTOV = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 4707639
+			}
+		}
+	}
+	s:STATE_PERM = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 6084076
+			}
+		}
+	}
+	s:STATE_ESTONIA = {
+		region_state:EST = {
+			create_pop = {
+				culture = estonian
+				size = 1396877
+			}
+		}
+	}
+	s:STATE_LATVIA = {
+		region_state:LAT = {
+			create_pop = {
+				culture = latvian
+				size = 2392530
+			}
+		}
+	}
+	s:STATE_LITHUANIA = {
+		region_state:LIT = {
+			create_pop = {
+				culture = polish
+				size = 3599637
+			}
+	}
+	s:STATE_POMERANIA = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 2130249
+			}
+		}
+	}
+	s:STATE_MAZOVIA = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 5115000
+			}
+		}
+	}
+	s:STATE_SILESIA = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 8835168
+			}
+		}
+	}
+	s:STATE_GREATER_POLAND = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 5738857
+			}
+		}
+	}
+	s:STATE_LESSER_POLAND = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 3443369
+			}
+		}
+	}
+	s:STATE_WEST_PRUSSIA = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 2172000
+			}
+		}
+	}
+	s:STATE_EAST_PRUSSIA = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 1428000
+			}
+		}
+	}
+	s:STATE_POSEN = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 2092045
+			}
+		}
+	}
+	s:STATE_WEST_GALICIA = {
+		region_state:POL = {
+			create_pop = {
+				culture = polish
+				size = 4748710
+			}
+		}
+	}
+	s:STATE_EAST_GALICIA = {
+		region_state:UKR = {
+			create_pop = {
+				culture = ukrainian
+				size = 5178700
+			}
+		}
+	}
+	s:STATE_CENTRAL_HUNGARY = {
+		region_state:HUN = {
+			create_pop = {
+				culture = hungarian
+				size = 3791339
+			}
+		}
+	}
+	s:STATE_TRANSDANUBIA = {
+		region_state:HUN = {
+			create_pop = {
+				culture = hungarian
+				size = 6410716
+			}
+		}
+	}
+	s:STATE_BEKES = {
+		region_state:ROM = {
+			create_pop = {
+				culture = romanian
+				size = 967527
+			}
+		}
+	}
+	s:STATE_DELVIDEK = {
+		region_state:SER = {
+			create_pop = {
+				culture = serb
+				size = 2031992
+			}
+		}
+	}
+	s:STATE_BANAT = {
+		region_state:ROM = {
+			create_pop = {
+				culture = romanian
+				size = 1472936
+			}
+		}
+	}
+	s:STATE_WEST_SLOVAKIA = {
+		region_state:SLV = {
+			create_pop = {
+				culture = slovak
+				size = 3158589
+			}
+		}
+	}
+	s:STATE_EAST_SLOVAKIA = {
+		region_state:SLV = {
+			create_pop = {
+				culture = slovak
+				size = 2218101
+			}
+		}
+	}
+	s:STATE_SOUTHERN_TRANSYLVANIA = {
+		region_state:ROM = {
+			create_pop = {
+				culture = romanian
+				size = 1483654
+			}
+		}
+	}
+	s:STATE_NORTHERN_TRANSYLVANIA = {
+		region_state:ROM = {
+			create_pop = {
+				culture = romanian
+				size = 2667961
+			}
+		}
+	}
+	s:STATE_MOLDAVIA = {
+		region_state:ROM = {
+			create_pop = {
+				culture = romanian
+				size = 5055567
+			}
+		}
+	}
+	s:STATE_WALLACHIA = {
+		region_state:ROM = {
+			create_pop = {
+				culture = romanian
+				size = 9213681
+			}
+		}
+	}
+	s:STATE_BESSARABIA = {
+		region_state:MOL = {
+			create_pop = {
+				culture = romanian
+				size = 4251573
+			}
+		}
+	}
+}
+}

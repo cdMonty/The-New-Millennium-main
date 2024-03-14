@@ -1,0 +1,336 @@
+﻿POPS = {
+	s:STATE_NEJD = {
+		region_state:NEJ = {
+			create_pop = {
+				culture = bedouin
+				size = 8045762
+			}
+		}
+	}
+	s:STATE_HEDJAZ = {
+		region_state:NEJ = {
+			create_pop = {
+				culture = bedouin
+				size = 10193155
+			}
+		}
+	}
+	s:STATE_OMAN = {
+		region_state:OMA = {
+			create_pop = {
+				culture = bedouin
+				size = 2316164
+			}
+		}
+	}
+	s:STATE_ABU_DHABI = {
+		region_state:ABU = {
+			create_pop = {
+				culture = bedouin
+				size = 3275333
+			}
+		}
+		region_state:OMA = {
+			create_pop = {
+				culture = bedouin
+				religion = shiite
+				size = 28089
+			}
+		}
+		region_state:BHN = {
+			create_pop = {
+				culture = bedouin
+				size = 711442
+			}
+		}
+		region_state:QAT = {
+			create_pop = {
+				culture = bedouin
+				size = 645937
+			}
+		}
+	}
+	s:STATE_YEMEN = {
+		region_state:YEM = {
+			create_pop = {
+				culture = yemenite
+				size = 18628700
+			}
+		}
+	}
+	s:STATE_AL_ANBAR = {
+		region_state:IRQ = {
+			create_pop = {
+				culture = mashriqi
+				size = 841954
+			}
+		}
+	}
+	s:STATE_BAGHDAD = {
+		region_state:IRQ = {
+			create_pop = {
+				culture = mashriqi
+				size = 11489157
+			}
+		}
+	}
+	s:STATE_MOSUL = {
+		region_state:IRQ = {
+			create_pop = {
+				culture = mashriqi
+				size = 6561830
+			}
+		}
+	}
+	s:STATE_BASRA = {
+		region_state:IRQ = {
+			create_pop = {
+				culture = mashriqi
+				size = 5735917
+			}
+		}
+		region_state:KUW = {
+			create_pop = {
+				culture = mashriqi
+				size = 1934901
+			}
+		}
+	}
+	s:STATE_HAIL = {
+		region_state:NEJ = {
+			create_pop = {
+				culture = bedouin
+				size = 3308473
+			}
+		}
+	}
+	s:STATE_CYPRUS = {
+		region_state:CYP = {
+			create_pop = {
+				culture = greek
+				size = 948237
+			}
+		}
+	}
+	s:STATE_TRANSJORDAN = {
+		region_state:EOT = {
+			create_pop = {
+				culture = bedouin
+				size = 5056174
+			}
+		}
+	}
+	s:STATE_PALESTINE = {
+		region_state:ISR = {
+			create_pop = {
+				culture = ashkenazi
+				religion = jewish
+				size = 6116958
+			}
+		}
+		region_state:PAL = {
+			create_pop = {
+				culture = mashriqi
+				size = 3139854
+			}
+		}
+	}
+	s:STATE_LEBANON = {
+		region_state:LEB = {
+			create_pop = {
+				culture = mashriqi
+				size = 4320642
+			}
+		}
+	}
+	s:STATE_SYRIA = {
+		region_state:SYR = {
+			create_pop = {
+				culture = mashriqi
+				size = 5855915
+			}
+		}
+	}
+	s:STATE_ALEPPO = {
+		region_state:SYR = {
+			create_pop = {
+				culture = mashriqi
+				size = 8430004
+			}
+		}
+		region_state:TUR = {
+			create_pop = {
+				culture = mashriqi
+				size = 1217249
+			}
+		}
+	}
+	s:STATE_DEIR_EZ_ZOR = {
+		region_state:SYR = {
+			create_pop = {
+				culture = mashriqi
+				size = 2225081
+			}
+		}
+	}
+	s:STATE_FARS = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 5366210
+			}
+		}
+	}
+	s:STATE_LARISTAN = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 4068806
+			}
+		}
+	}
+	s:STATE_SISTAN = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 3021525
+			}
+		}
+	}
+	s:STATE_KHORASAN = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 8154737
+			}
+		}
+	}
+	s:STATE_KHUZESTAN = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 3313978
+			}
+		}
+	}
+	s:STATE_ISFAHAN = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 7576732
+			}
+		}
+	}
+	s:STATE_MAZANDARAN = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 7116882
+			}
+		}
+	}
+	s:STATE_IRAKAJEMI = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 19351973
+			}
+		}
+	}
+	s:STATE_TABRIZ = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 2357956
+			}
+		}
+	}
+	s:STATE_LURISTAN = {
+		region_state:PER = {
+			create_pop = {
+				culture = persian
+				size = 5215584
+			}
+		}
+	}
+	s:STATE_HUDAVENDIGAR = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 8808642
+			}
+		}
+	}
+	s:STATE_AYDIN = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 7963661
+			}
+		}
+	}
+	s:STATE_KONYA = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 8777385
+			}
+		}
+	}
+	s:STATE_KASTAMONU = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 29742088
+			}
+		}
+	}
+	s:STATE_DIYARBAKIR = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 6280251
+			}
+		}
+	}
+	s:STATE_ADANA = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 7658443
+			}
+		}
+	}
+	s:STATE_TRABZON = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 2546365
+			}
+		}
+	}
+	s:STATE_ERZURUM = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 3954375
+			}
+		}
+	}
+	s:STATE_KARS = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 1121010
+			}
+		}
+	}
+	s:STATE_ANKARA = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 2711396
+			}
+		}
+	}
+}

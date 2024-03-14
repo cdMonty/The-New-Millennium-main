@@ -1,0 +1,42 @@
+﻿l_english:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############
+### L A W S ###
+###############
+SOCIETAL_STRUCTURE:0 "Society"
+
+
+
+#################
+### T R A D E ###
+#################
+trade_route_import_lens_option_computers_tooltip:0 "Establish an $computers$ import trade route"
+trade_route_export_lens_option_computers_tooltip:0 "Establish an $computers$ export trade route"

@@ -1,0 +1,560 @@
+﻿POPS = {
+	s:STATE_IVORY_COAST = {
+		region_state:IVC = {
+			create_pop = {
+				culture = akan
+				size = 7419985
+			}
+		}
+	}
+	s:STATE_WINDWARD_COAST = {
+		region_state:IVC = {
+			create_pop = {
+				culture = akan
+				size = 8714015
+			}
+		}
+	}
+	s:STATE_SENEGAL = {
+		region_state:SEN = {
+			create_pop = {
+				culture = fulbe
+				size = 5977308
+			}
+		}
+	}
+	s:STATE_GAMBIA = {
+		region_state:SEN = {
+			create_pop = {
+				culture = fulbe
+				size = 3726979
+			}
+		}
+		region_state:GAM = {
+			create_pop = {
+				culture = mande
+				size = 1437539
+			}
+		}
+		region_state:GNB = {
+			create_pop = {
+				culture = mande
+				size = 1230849
+			}
+		}
+	}
+	s:STATE_SIERRA_LEONE = {
+		region_state:SIL = {
+			create_pop = {
+				culture = afro_caribbean
+				size = 4584067
+			}
+		}
+	}
+	s:STATE_VOLTA = {
+		region_state:BKF = {
+			create_pop = {
+				culture = mossi
+				size = 11882888
+			}
+		}
+	}
+	s:STATE_LIBERIA = {
+		region_state:LIB = {
+			create_pop = {
+				culture = kru
+				size = 2895224
+			}
+		}
+	}
+	s:STATE_HAUSALAND = {
+		region_state:NGA = {
+			create_pop = {
+				culture = hausa
+				size = 12859876
+			}
+		}
+	}
+	s:STATE_BENIN = {
+		region_state:NGA = {
+			create_pop = {
+				culture = fulbe
+				size = 12718904
+			}
+		}
+	}
+	s:STATE_YORUBA_STATES = {
+		region_state:NGA = {
+			create_pop = {
+				culture = hausa
+				size = 25962554
+			}
+		}
+	}
+	s:STATE_NIGER_DELTA = {
+		region_state:NGA = {
+			create_pop = {
+				culture = hausa
+				size = 22937362
+			}
+		}
+	}
+	s:STATE_OUTER_HAUSALAND = {
+		region_state:NIG = {
+			create_pop = {
+				culture = hausa
+				size = 11286110
+			}
+		}
+	}
+	s:STATE_BORNU = {
+		region_state:NGA = {
+			create_pop = {
+				culture = hausa
+				size = 5911544
+			}
+		}
+	}
+	s:STATE_NIGERIA = {
+		region_state:NGA = {
+			create_pop = {
+				culture = hausa
+				size = 8045247
+			}
+		}
+	}
+	s:STATE_EAST_HAUSALAND = {
+		region_state:NGA = {
+			create_pop = {
+				culture = hausa
+				size = 34416497
+			}
+		}
+	}
+	s:STATE_GUINEA = {
+		region_state:GNA = {
+			create_pop = {
+				culture = dyula
+				size = 8336967
+			}
+		}
+	}
+	s:STATE_GHANA = {
+		region_state:GHA = {
+			create_pop = {
+				culture = akan
+				size = 16962518
+			}
+		}
+	}
+	s:STATE_TOGO = {
+		region_state:TOG = {
+			create_pop = {
+				culture = akan
+				size = 5008035
+			}
+		}
+		region_state:GHA = {
+			create_pop = {
+				culture = fulbe
+				size = 2702984
+			}
+		}
+	}
+	s:STATE_DAHOMEY = {
+		region_state:BEN = {
+			create_pop = {
+				culture = fon
+				size = 6998023
+			}
+		}
+	}
+	s:STATE_LINDI = {
+		region_state:TAN = {
+			create_pop = {
+				culture = maasai
+				size = 10160487
+			}
+		}
+	}
+	s:STATE_ZANZIBAR = {
+		region_state:TAN = {
+			create_pop = {
+				culture = maasai
+				size = 6041610
+			}
+		}
+		region_state:KEN = {
+			create_pop = {
+				culture = kikuyu
+				size = 2267030
+			}
+		}
+	}
+	s:STATE_TANGANYIKA = {
+		region_state:TAN = {
+			create_pop = {
+				culture = maasai
+				size = 18261607
+			}
+		}
+		region_state:RWD = {
+			create_pop = {
+				culture = ruanda
+				size = 8109989
+			}
+		}
+		region_state:BRD = {
+			create_pop = {
+				culture = rundi
+				size = 6307659
+			}
+		}
+	}
+	s:STATE_KENYA = {
+		region_state:KEN = {
+			create_pop = {
+				culture = kikuyu
+				size = 4068022
+			}
+		}
+	}
+	s:STATE_RIFT_VALLEY = {
+		region_state:KEN = {
+			create_pop = {
+				culture = kikuyu
+				size = 28584576
+			}
+		}
+	}
+	s:STATE_OROMIA = {
+		region_state:ETH = {
+			create_pop = {
+				culture = amhara
+				size = 14649648
+			}
+		}
+	}
+	s:STATE_AMHARA = {
+		region_state:ETH = {
+			create_pop = {
+				culture = amhara
+				size = 28898405
+			}
+		}
+	}
+	s:STATE_GONDER = {
+		region_state:ETH = {
+			create_pop = {
+				culture = amhara
+				size = 23483814
+			}
+		}
+	}
+	s:STATE_KAZEMBE = {
+		region_state:ZAM = {
+			create_pop = {
+				culture = lunda
+				size = 3358468
+			}
+		}
+		region_state:MLW = {
+			create_pop = {
+				culture = chewa
+				size = 5941135
+			}
+		}
+	}
+	s:STATE_SOMALILAND = {
+		region_state:SOM = {
+			create_pop = {
+				culture = somali
+				size = 8721465
+			}
+		}
+	}
+	s:STATE_SOUTH_MADAGASCAR = {
+		region_state:MAD = {
+			create_pop = {
+				culture = malagasy
+				size = 7915951
+			}
+		}
+	}
+	s:STATE_NORTH_MADAGASCAR = {
+		region_state:MAD = {
+			create_pop = {
+				culture = malagasy
+				size = 8300480
+			}
+		}
+	}
+	s:STATE_UGANDA = {
+		region_state:UGA = {
+			create_pop = {
+				culture = baganda
+				size = 24020697
+			}
+		}
+	}
+	s:STATE_MOCAMBIQUE = {
+		region_state:MOZ = {
+			create_pop = {
+				culture = shona
+				size = 8427734
+			}
+		}
+		region_state:MLW = {
+			create_pop = {
+				culture = chewa
+				size = 5288252
+			}
+		}
+	}
+	s:STATE_WADDAI = {
+		region_state:CHA = {
+			create_pop = {
+				culture = bedouin
+				size = 6412226
+			}
+		}
+	}
+	s:STATE_NORTH_CAMEROON = {
+		region_state:CMR = {
+			create_pop = {
+				culture = fulbe
+				size = 8776817
+			}
+		}
+	}
+	s:STATE_SOUTH_CAMEROON = {
+		region_state:CMR = {
+			create_pop = {
+				culture = fulbe
+				size = 6314777
+			}
+		}
+	}
+	s:STATE_UBANGI_SHARI = {
+		region_state:CAR = {
+			create_pop = {
+				culture = equatorial_bantu
+				size = 3759170
+			}
+		}
+	}
+	s:STATE_CONGO = {
+		region_state:KON = {
+			create_pop = {
+				culture = bakongo
+				size = 3127411
+			}
+		}
+		region_state:ANG = {
+			create_pop = {
+				culture = bakongo
+				size = 134158
+			}
+		}
+	}
+	s:STATE_CONGO_ORIENTALE = {
+		region_state:CNG = {
+			create_pop = {
+				culture = bakongo
+				size = 14716774
+			}
+		}
+	}
+	s:STATE_KASAI = {
+		region_state:CNG = {
+			create_pop = {
+				culture = bakongo
+				size = 8688152
+			}
+		}
+	}
+	s:STATE_BAS_CONGO = {
+		region_state:CNG = {
+			create_pop = {
+				culture = bakongo
+				size = 12212921
+			}
+		}
+	}
+	s:STATE_EQUATEUR = {
+		region_state:CNG = {
+			create_pop = {
+				culture = bakongo
+				size = 6468404
+			}
+		}
+	}
+	s:STATE_NORTH_ANGOLA = {
+		region_state:ANG = {
+			create_pop = {
+				culture = ovimbundu
+				size = 5651790
+			}
+		}
+	}
+	s:STATE_SOUTH_ANGOLA = {
+		region_state:ANG = {
+			create_pop = {
+				culture = ovimbundu
+				size = 9956847
+			}
+		}
+	}
+	s:STATE_EAST_ANGOLA = {
+		region_state:ANG = {
+			create_pop = {
+				culture = ovimbundu
+				size = 651267
+			}
+		}
+	}
+	s:STATE_KATANGA = {
+		region_state:CNG = {
+			create_pop = {
+				culture = bakongo
+				size = 6530066
+			}
+		}
+	}
+	s:STATE_GABON = {
+		region_state:GAB = {
+			create_pop = {
+				culture = fang
+				size = 1272935
+			}
+		}
+		region_state:EQG = {
+			create_pop = {
+				culture = fang
+				size = 684977
+			}
+		}
+	}
+	s:STATE_ZAMBIA = {
+		region_state:ZAM = {
+			create_pop = {
+				culture = lunda
+				size = 6532668
+			}
+		}
+	}
+	s:STATE_ZAMBEZIA = {
+		region_state:MOZ = {
+			create_pop = {
+				culture = shona
+				size = 3623947
+			}
+		}
+	}
+	s:STATE_ZAMBEZI = {
+		region_state:ZIM = {
+			create_pop = {
+				culture = shona
+				size = 11834676
+			}
+		}
+	}
+	s:STATE_NAMAQUALAND = {
+		region_state:NMB = {
+			create_pop = {
+				culture = khoisan
+				size = 141093
+			}
+		}
+	}
+	s:STATE_HEREROLAND = {
+		region_state:NMB = {
+			create_pop = {
+				culture = khoisan
+				size = 1678048
+			}
+		}
+	}
+	s:STATE_ZULULAND = {
+		region_state:SAF = {
+			create_pop = {
+				culture = boer
+				size = 9626253
+			}
+		}
+		region_state:BST = {
+			create_pop = {
+				culture = sotho
+				size = 1998630
+			}
+		}
+	}
+	s:STATE_VRYSTAAT = {
+		region_state:SAF = {
+			create_pop = {
+				culture = boer
+				size = 2749887
+			}
+		}
+	}
+	s:STATE_TRANSVAAL = {
+		region_state:SAF = {
+			create_pop = {
+				culture = boer
+				size = 19999663
+			}
+		}
+		region_state:ESW = {
+			create_pop = {
+				culture = sotho
+				size = 1030496
+			}
+		}
+	}
+	s:STATE_EASTERN_CAPE = {
+		region_state:SAF = {
+			create_pop = {
+				culture = xhosa
+				size = 6325612
+			}
+		}
+	}
+	s:STATE_CAPE_COLONY = {
+		region_state:SAF = {
+			create_pop = {
+				culture = boer
+				size = 4195963
+			}
+		}
+	}
+	s:STATE_NORTHERN_CAPE = {
+		region_state:SAF = {
+			create_pop = {
+				culture = boer
+				size = 6665805
+			}
+		}
+	}
+	s:STATE_BOTSWANA = {
+		region_state:TSW = {
+			create_pop = {
+				culture = tswana
+				size = 1726985
+			}
+		}
+		region_state:NMB = {
+			create_pop = {
+				culture = khoisan
+				size = 141093
+			}
+		}
+	}
+	s:STATE_LOURENCO_MARQUES = {
+		region_state:MOZ = {
+			create_pop = {
+				culture = shona
+				size = 5716824
+			}
+		}
+	}
+}

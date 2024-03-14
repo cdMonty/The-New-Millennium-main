@@ -1,0 +1,174 @@
+﻿BUILDINGS={
+	s:STATE_NEJD={
+	}
+	s:STATE_OMAN={
+	}
+	s:STATE_ABU_DHABI={
+	}
+	s:STATE_YEMEN={
+	}
+	s:STATE_HEDJAZ={
+	}
+	s:STATE_HAIL={
+	}
+	s:STATE_CYPRUS={
+	}
+	s:STATE_TRANSJORDAN={
+	}
+	s:STATE_PALESTINE={
+	}
+	s:STATE_LEBANON={
+	}
+	s:STATE_SYRIA={
+	}
+	s:STATE_ALEPPO={
+	}
+	s:STATE_BAGHDAD={
+	}
+	s:STATE_MOSUL={
+	}
+	s:STATE_DEIR_EZ_ZOR={
+	}
+	s:STATE_BASRA={
+	}
+	s:STATE_FARS={
+	}
+	s:STATE_LARISTAN={
+	}
+	s:STATE_SISTAN={
+	}
+	s:STATE_KHORASAN={
+	}
+	s:STATE_KHUZESTAN={
+	}
+	s:STATE_ISFAHAN={
+	}
+	s:STATE_MAZANDARAN={
+	}
+	s:STATE_IRAKAJEMI={
+	}
+	s:STATE_TABRIZ={
+	}
+	s:STATE_LURISTAN={
+	}
+	s:STATE_HUDAVENDIGAR={
+	}
+	s:STATE_AYDIN={
+	}
+	s:STATE_KONYA={
+	}
+	s:STATE_KASTAMONU={
+	}
+	s:STATE_DIYARBAKIR={
+	}
+	s:STATE_ADANA={
+	}
+	s:STATE_TRABZON={
+	}
+	s:STATE_ERZURUM={
+	}
+	s:STATE_KARS={
+	}
+	s:STATE_ANKARA={
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

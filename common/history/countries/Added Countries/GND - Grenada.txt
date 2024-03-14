@@ -1,0 +1,5 @@
+﻿COUNTRIES = {
+	c:GND = {
+		effect_starting_technology_dev_america_tech = yes
+	}
+}

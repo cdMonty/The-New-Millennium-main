@@ -1,0 +1,226 @@
+﻿POPS = {
+	s:STATE_BIHAR = {
+		region_state:BHT = {
+			create_pop = {
+				culture = bihari
+				size = 120214979
+			}
+		}
+	}
+	s:STATE_NORTH_BENGAL = {
+		region_state:BGL = {
+			create_pop = {
+				culture = bengali
+				size = 57720085
+			}
+		}
+	}
+	s:STATE_ASSAM = {
+		region_state:BHT = {
+			create_pop = {
+				culture = assamese
+				size = 45639701
+			}
+		}
+	}
+	s:STATE_SIKKIM = {
+		region_state:BHT = {
+			create_pop = {
+				culture = assamese
+				size = 18993732
+			}
+		}
+	}
+	s:STATE_DELHI = {
+		region_state:BHT = {
+			create_pop = {
+				culture = avadhi
+				size = 93658613
+			}
+		}
+	}
+	s:STATE_AWADH = {
+		region_state:BHT = {
+			create_pop = {
+				culture = avadhi
+				size = 94256173
+			}
+		}
+	}
+	s:STATE_GUJARAT = {
+		region_state:BHT = {
+			create_pop = {
+				culture = gujarati
+				size = 49417626
+			}
+		}
+	}
+	s:STATE_CENTRAL_INDIA = {
+		region_state:BHT = {
+			create_pop = {
+				culture = marathi
+				size = 66748246
+			}
+		}
+	}
+	s:STATE_KASHMIR = {
+		region_state:PAN = {
+			create_pop = {
+				culture = kashmiri
+				size = 21428822
+			}
+		}
+		region_state:BHT = {
+			create_pop = {
+				culture = kashmiri
+				size = 15730392
+			}
+		}
+	}
+	s:STATE_HARYANA = {
+		region_state:BHT = {
+			create_pop = {
+				culture = avadhi
+				size = 31268455
+			}
+		}
+	}
+	s:STATE_PUNJAB = {
+		region_state:PAN = {
+			create_pop = {
+				culture = panjabi
+				size = 69331448
+			}
+		}
+	}
+	s:STATE_NAGPUR = {
+		region_state:BHT = {
+			create_pop = {
+				culture = kanauji
+				size = 74222828
+			}
+		}
+	}
+	s:STATE_SOUTH_BENGAL = {
+		region_state:BGL = {
+			create_pop = {
+				culture = bengali
+				size = 71473242
+			}
+		}
+	}
+	s:STATE_SINDH = {
+		region_state:PAN = {
+			create_pop = {
+				culture = sindi
+				size = 50383564
+			}
+		}
+	}
+	s:STATE_RAJPUTANA = {
+		region_state:BHT = {
+			create_pop = {
+				culture = rajput
+				size = 36383890
+			}
+		}
+	}
+	s:STATE_CEYLON = {
+		region_state:SRL = {
+			create_pop = {
+				culture = sinhala
+				size = 18776371
+			}
+		}
+		region_state:MLD = {
+			create_pop = {
+				culture = sinhala
+				size = 282507
+			}
+		}
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 4000
+			}
+		}
+	}
+	s:STATE_INDIAN_OCEAN_TERRITORY = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 716335
+			}
+		}
+		region_state:SEY = {
+			create_pop = {
+				culture = kikuyu
+				size = 80060
+			}
+		}
+	}
+	s:STATE_WEST_BENGAL = {
+		region_state:BHT = {
+			create_pop = {
+				culture = bengali
+				size = 58913392
+			}
+		}
+	}
+	s:STATE_ORISSA = {
+		region_state:BHT = {
+			create_pop = {
+				culture = oriya
+				size = 36480636
+			}
+		}
+	}
+	s:STATE_CIRCARS = {
+		region_state:BHT = {
+			create_pop = {
+				culture = telegu
+				size = 40500376
+			}
+		}
+	}
+	s:STATE_MYSORE = {
+		region_state:BHT = {
+			create_pop = {
+				culture = kannada
+				size = 36092651
+			}
+		}
+	}
+	s:STATE_TRAVANCORE = {
+		region_state:BHT = {
+			create_pop = {
+				culture = malayalam
+				size = 26240463
+			}
+		}
+	}
+	s:STATE_MADRAS = {
+		region_state:BHT = {
+			create_pop = {
+				culture = tamil
+				size = 64461541
+			}
+		}
+	}
+	s:STATE_HYDERABAD = {
+		region_state:BHT = {
+			create_pop = {
+				culture = telegu
+				size = 83246946
+			}
+		}
+	}
+	s:STATE_BOMBAY = {
+		region_state:BHT = {
+			create_pop = {
+				culture = marathi
+				size = 67136065
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+﻿POPS = {
+	s:STATE_NEW_SOUTH_WALES = {
+		region_state:AST = {
+			create_pop = {
+				culture = australian
+				size = 6194409
+			}
+		}
+	}
+	s:STATE_VICTORIA = {
+		region_state:AST = {
+			create_pop = {
+				culture = australian
+				size = 4431939
+			}
+		}
+	}
+
+	s:STATE_TASMANIA = {
+		region_state:AST = {
+			create_pop = {
+				culture = australian
+				size = 494232
+			}
+		}
+	}
+	s:STATE_QUEENSLAND = {
+		region_state:AST = {
+			create_pop = {
+				culture = australian
+				size = 4300197
+			}
+		}
+	}
+	s:STATE_SOUTH_AUSTRALIA = {
+		region_state:AST = {
+			create_pop = {
+				culture = australian
+				size = 1154616
+			}
+		}
+	}
+	s:STATE_WESTERN_AUSTRALIA = {
+		region_state:AST = {
+			create_pop = {
+				culture = australian
+				size = 2231894
+			}
+		}
+	}
+	s:STATE_NORTHERN_TERRITORY = {
+		region_state:AST = {
+			create_pop = {
+				culture = australian
+				size = 210039
+			}
+		}
+	}
+	s:STATE_NORTH_ISLAND = {
+		region_state:NZL = {
+			create_pop = {
+				culture = australian
+				religion = protestant
+				size = 2918886
+			}
+		}
+	}
+	s:STATE_SOUTH_ISLAND = {
+		region_state:NZL = {
+			create_pop = {
+				culture = australian
+				size = 941720
+			}
+		}
+	}
+}

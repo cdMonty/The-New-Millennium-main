@@ -1,0 +1,5 @@
+﻿l_english:
+ #Computer Manufactories
+  pmg_cpus:0 "Central Processing Unit"
+  pm_90s_cpus:0 "32 bit Processors"
+  pm_00s_cpus:0 "64 bit Processors"

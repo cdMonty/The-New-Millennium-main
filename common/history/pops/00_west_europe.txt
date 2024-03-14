@@ -1,0 +1,654 @@
+﻿POPS = {
+	s:STATE_SVEALAND = { # Varmland, Orebro, Ostergotland, Sodermanland, Stockholm, Uppsala, Vastmanland
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 3512887
+			}
+		}
+	}
+	s:STATE_GOTALAND = { # Kalamar, Kronoberg, Jonkoping, Vastra Gotaland
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 2315272
+			}
+		}
+	}
+	s:STATE_SCANIA = { # Halland, Skane, Blekinge
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 1569841
+			}
+		}
+	}
+	s:STATE_NORRLAND = { # Darlarna, Gavleborg, Jamtland, Vasternorrland, Vasterbotten, Norrbotten
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 1454000
+			}
+			create_pop = {
+				culture = sami
+				size = 20000
+			}
+		}
+	}
+	s:STATE_GOTLAND = { # Gotland
+		region_state:SWE = {
+			create_pop = {
+				culture = swedish
+				size = 60000
+			}
+		}
+	}
+	s:STATE_JUTLAND = {
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 1765873
+			}
+		}
+	}
+	s:STATE_ZEALAND = {
+		region_state:DEN = {
+			create_pop = {
+				culture = danish
+				size = 3188000
+			}
+		}
+	}
+	s:STATE_WESTERN_NORWAY = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 2464000
+			}
+		}
+	}
+	s:STATE_NORTHERN_NORWAY = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 1155579
+			}
+		}
+	}
+	s:STATE_EASTERN_NORWAY = {
+		region_state:NOR = {
+			create_pop = {
+				culture = norwegian
+				size = 1690928
+			}
+		}
+	}
+	s:STATE_ICELAND = {
+		region_state:ICL = {
+			create_pop = {
+				culture = icelandic
+				size = 281205
+			}
+		}
+	}
+	s:STATE_GREENLAND = {
+		region_state:GRN = {
+			create_pop = {
+				culture = danish
+				size = 56184
+			}
+		}
+	}
+	s:STATE_SOUTHERN_FINLAND = { # Uusimaa, Varsinais-Suomi, Kanta-Hame, Satakunta, Pirkanmaa, Paijat-Hame, Etela-Savo, Pohjois-Savo, Keski-Suomi
+		region_state:FIN = {
+			create_pop = {
+				culture = finnish
+				size = 3900564
+			}
+		}
+	}
+	s:STATE_WEST_KARELIA = {
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 500000
+			}
+		}
+	}
+	s:STATE_ALAND = {
+		region_state:FIN = {
+			create_pop = {
+				cultures = {
+					swedish = 0.68
+					finnish = 0.32
+				}
+				size = 28233
+			}
+		}
+	}
+	s:STATE_OSTROBOTHNIA = { # Pohjanmaa, Etela-Pojhanmaa, Keski-Pohjanmaa, Pohjois-Pohjanmaa, Kainuu, Lappi
+		region_state:FIN = {
+			create_pop = {
+				culture = finnish
+				size = 1247412
+			}
+			create_pop = {
+				culture = sami
+				size = 8000
+			}
+		}
+	}
+	s:STATE_HOME_COUNTIES = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 17080449
+			}
+		}
+	}
+	s:STATE_LANCASHIRE = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 6624365
+			}
+		}
+	}
+	s:STATE_WALES = {
+		region_state:GBR = {
+			create_pop = {
+				culture = welsh
+				size = 2906870
+			}
+		}
+	}
+	s:STATE_YORKSHIRE = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 7133107
+			}
+		}
+	}
+	s:STATE_HIGHLANDS = {
+		region_state:GBR = {
+			create_pop = {
+				culture = scottish
+				size = 594281
+			}
+		}
+	}
+	s:STATE_MIDLANDS = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 11049414
+			}
+		}
+	}
+	s:STATE_EAST_ANGLIA = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 2679204
+			}
+		}
+	}
+	s:STATE_WEST_COUNTRY = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 4632694
+			}
+		}
+	}
+	s:STATE_LOWLANDS = {
+		region_state:GBR = {
+			create_pop = {
+				culture = scottish
+				size = 4468659
+			}
+		}
+	}
+	s:STATE_ULSTER = {
+		region_state:GBR = {
+			create_pop = {
+				culture = irish # Catholics
+				size = 1722585
+			}
+		}
+	}
+	s:STATE_MUNSTER = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish
+				size = 1141026
+			}
+		}
+	}
+	s:STATE_LEINSTER = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish
+				size = 1720042
+			}
+		}
+	}
+	s:STATE_CONNAUGHT = {
+		region_state:IRE = {
+			create_pop = {
+				culture = irish
+				size = 971715
+			}
+		}
+	}
+	s:STATE_ILE_DE_FRANCE = { # r - Ile-De-France, d - Eure-et Loir
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 10692535
+			}
+		}
+	}
+	s:STATE_PROVENCE = {
+		region_state:FRA = {
+			create_pop = {
+				culture = occitan
+				size = 4872852
+			}
+		}
+	}
+	s:STATE_NORMANDY = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 3212000
+			}
+		}
+	}
+	s:STATE_LANGUEDOC = {
+		region_state:FRA = {
+			create_pop = {
+				culture = occitan
+				size = 1966832
+			}
+		}
+	}
+	s:STATE_RHONE = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 4898872
+			}
+		}
+	}
+	s:STATE_LOIRE = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 3249000
+			}
+		}
+	}
+	s:STATE_PICARDY = { # d - Oise, Somme, Pas-de-Calais, a - Valenciennes, Douai, Lille, Dunkerque
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 4359423
+			}
+		}
+	}
+	s:STATE_ALSACE_LORRAINE = { # d - Moselle, Bas-Rhin, Haut-Rhin
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 2385372
+			}
+		}
+	}
+	s:STATE_POITOU = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 2092440
+			}
+		}
+	}
+	s:STATE_ARMAGNAC = {
+		region_state:FRA = {
+			create_pop = {
+				culture = occitan
+				size = 2428047
+			}
+		}
+	}
+	s:STATE_LIMOUSIN = {
+		region_state:FRA = {
+			create_pop = {
+				culture = occitan
+				size = 987745
+			}
+		}
+	}
+	s:STATE_BRITTANY = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 2928000
+			}
+		}
+	}
+	s:STATE_BURGUNDY = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 2734000
+			}
+		}
+	}
+	s:STATE_CHAMPAGNE = { # d - Aisne, Ardennes, Marne, a - Cambrai, Avesnes-sur-Helpe, Nogent-sur-Seine, Troyes
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 831000
+			}
+		}
+	}
+	s:STATE_FRANCHE_COMTE = { # d - Doubs, Territoire, Haute-Saone, Vosges, Haute-Marne, Meuse, Meurthe-et-Moselle, a - Bar-sur-Aube
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 1182560
+			}
+		}
+	}
+	s:STATE_AUVERGNE = {
+		region_state:FRA = {
+			create_pop = {
+				culture = occitan
+				size = 3745452
+			}
+		}
+	}
+	s:STATE_AQUITAINE = {
+		region_state:FRA = {
+			create_pop = {
+				culture = occitan
+				size = 1981197
+			}
+		}
+	}
+	s:STATE_ORLEANS = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 1377472
+			}
+		}
+	}
+	s:STATE_SAVOY = {
+		region_state:FRA = {
+			create_pop = {
+				culture = french
+				size = 1143826
+			}
+		}
+	}
+	s:STATE_HOLLAND = {
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				size = 5605841
+			}
+		}
+	}
+	s:STATE_FRIESLAND = {
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				size = 5605841
+			}
+		}
+	}
+	s:STATE_GELRE = {
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				size = 5146647
+			}
+		}
+	}
+	s:STATE_LUXEMBOURG = {
+		region_state:LUX = {
+			create_pop = {
+				culture = wallonian
+				size = 436300
+			}
+		}
+	}
+	s:STATE_WALLONIA = {
+		region_state:BEL = {
+			create_pop = {
+				culture = wallonian
+				size = 2892906
+			}
+		}
+	}
+	s:STATE_EUPEN_MALMEDY = {
+		region_state:BEL = {
+			create_pop = {
+				cultures = {
+					wallonian = 0.33
+					north_german = 0.67
+				}
+				size = 296138
+			}
+		}
+	}
+	s:STATE_FLANDERS = {
+		region_state:BEL = {
+			create_pop = {
+				culture = flemish
+				size = 7075299
+			}
+		}
+		region_state:EUM = {
+			create_pop = {
+				culture = flemish
+				size = 10
+			}
+		}
+	}
+	s:STATE_AUSTRIA = {
+		region_state:AUS = {
+			create_pop = {
+				culture = south_german
+				size = 4737986
+			}
+		}
+	}
+	s:STATE_BOHEMIA = {
+		region_state:CZH = {
+			create_pop = {
+				culture = czech
+				size = 6066416
+			}
+		}
+	}
+	s:STATE_MORAVIA = {
+		region_state:CZH = {
+			create_pop = {
+				culture = czech
+				size = 4168294
+			}
+		}
+	}
+	s:STATE_STYRIA = {
+		region_state:AUS = {
+			create_pop = {
+				culture = south_german
+				size = 1742707
+			}
+		}
+	}
+	s:STATE_TYROL = {
+		region_state:AUS = {
+			create_pop = {
+				culture = south_german
+				size = 1529735
+			}
+		}
+	}
+	s:STATE_EAST_SWITZERLAND = {
+		region_state:SWI = {
+			create_pop = {
+				culture = swiss
+				size = 4021953
+			}
+		}
+	}
+	s:STATE_WEST_SWITZERLAND = {
+		region_state:SWI = {
+			create_pop = {
+				culture = swiss
+				size = 3160106
+			}
+		}
+	}
+	s:STATE_ELBE = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 3984233
+			}
+		}
+	}
+	s:STATE_WESTPHALIA = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 4882804
+			}
+		}	
+	}
+	s:STATE_ANHALT = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 2615375
+			}
+		}
+	}
+	s:STATE_RHINELAND = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 4103260
+			}
+		}
+	}
+	s:STATE_OST_RHINE = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 6627215
+			}
+		}
+	}
+	s:STATE_NORTH_RHINE = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 4147470
+			}
+		}
+	}
+	s:STATE_BRANDENBURG = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 5984131
+			}
+		}
+	}
+	s:STATE_SCHLESWIG_HOLSTEIN = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 2789761
+			}
+		}
+	}
+	s:STATE_WURTTEMBERG = {
+		region_state:GER = {
+			create_pop = {
+				culture = south_german
+				size = 4807095
+			}
+		}		
+	}
+	s:STATE_BADEN = {
+		region_state:GER = {
+			create_pop = {
+				culture = south_german
+				size = 4908462
+			}
+		}
+	}
+	s:STATE_HANNOVER = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 7452163
+			}
+		}
+	}
+	s:STATE_BRUNSWICK = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 4966821
+			}
+		}
+	}
+	s:STATE_BAVARIA = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 6559953
+			}
+		}
+	}
+	s:STATE_FRANCONIA = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 5096756
+			}
+		}
+	}
+	s:STATE_SAXONY = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 5856836
+			}
+		}		
+	}
+	s:STATE_HESSE = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 5068129
+			}
+		}	
+	}
+	s:STATE_MECKLENBURG = {
+		region_state:GER = {
+			create_pop = {
+				culture = north_german
+				size = 1609675
+			}
+		}	
+	}
+}

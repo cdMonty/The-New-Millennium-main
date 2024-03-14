@@ -1,0 +1,505 @@
+﻿POPS = {
+	s:STATE_SOUTH_TYROL = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 937166
+			}
+		}
+	}
+	s:STATE_LOMBARDY = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 8971000
+			}
+		}
+	}
+	s:STATE_PIEDMONT = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 5962548
+			}
+		}
+	}
+	s:STATE_SARDINIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 1639000
+			}
+		}
+	}
+	s:STATE_MALTA = {
+		region_state:MLT = {
+			create_pop = {
+				culture = maltese
+				size = 390087
+			}
+		}
+	}
+	s:STATE_UMBRIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 2297000
+			}
+		}
+	}
+	s:STATE_CALABRIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 2609000
+			}
+		}
+	}
+	s:STATE_APULIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 4342000
+			}
+		}
+	}
+	s:STATE_ABRUZZO = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 1262000
+			}
+		}
+	}
+	s:STATE_EMILIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 3160354
+			}
+		}
+	}
+	s:STATE_TUSCANY = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 3498000
+			}
+		}
+	}
+	s:STATE_ROMAGNA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 822646
+			}
+		}
+	}
+	s:STATE_LAZIO = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 5112000
+			}
+		}
+	}
+	s:STATE_VENETIA = {
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 5712000
+			}
+		}
+	}
+	s:STATE_SICILY = {
+		region_state:ITA = {
+			create_pop = {
+				culture = south_italian
+				size = 4969000
+			}
+		}
+	}
+	s:STATE_CAMPANIA={
+		region_state:ITA={
+			create_pop = {
+				culture = south_italian
+				size = 5672683
+			}
+		}
+	}
+	s:STATE_CORSICA = {
+		region_state:FRA = {
+			create_pop = {
+				culture = corsican
+				size = 348000
+			}
+		}
+	}
+	s:STATE_TOLEDO = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 7183384
+			}
+		}
+	}
+	s:STATE_GALICIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = galician
+				size = 2695880
+			}
+		}
+	}
+	s:STATE_ASTURIAS = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1598129
+			}
+		}	
+	}
+	s:STATE_CASTILE = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 2456474
+			}
+		}
+	}
+	s:STATE_NAVARRA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 2012244
+			}
+		}
+	}
+	s:STATE_ARAGON = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1204215
+			}
+		}
+	}
+	s:STATE_CATALONIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = catalan
+				size = 6174547
+			}
+		}
+		region_state:ADO = {
+			create_pop = {
+				culture = catalan
+				size = 66097
+			}
+		}
+	}
+	s:STATE_BALEARES = {
+		region_state:SPA = {
+			create_pop = {
+				culture = catalan
+				size = 841669
+			}
+		}
+	}
+	s:STATE_ANDALUSIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 4150291
+			}
+		}
+	}
+	s:STATE_GRANADA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 4378008
+			}
+		}
+	}
+	s:STATE_BADAJOZ = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1058503
+			}
+		}
+	}
+	s:STATE_VALENCIA = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 5067911
+			}
+		}
+	}
+	s:STATE_BEIRA = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 3986269
+			}
+		}
+	}
+	s:STATE_ESTREMADURA = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 4760169
+			}
+		}
+	}
+	s:STATE_ALENTEJO = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 1052244
+			}
+		}
+	}
+	s:STATE_CAPE_VERDE = {
+		region_state:CPV = {
+			create_pop = {
+				culture = portuguese
+				size = 428178
+			}
+		}
+	}
+
+	s:STATE_MADEIRA = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 260893
+			}
+		}
+	}
+
+	s:STATE_CANARY_ISLANDS = {
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 1716276
+			}
+		}
+	}
+
+	s:STATE_AZORES = {
+		region_state:POR = {
+			create_pop = {
+				culture = portuguese
+				size = 241051
+			}
+		}
+	}
+	#Romania
+	s:STATE_DOBRUDJA = {
+		region_state:ROM = {
+			create_pop = {
+				culture = romanian
+				size = 1058550
+			}
+		}
+		region_state:BUL = {
+			create_pop = {
+				culture = bulgarian
+				size = 800000
+			}
+		}
+	}
+	s:STATE_ALBANIA = {
+		region_state:ALB = {
+			create_pop = {
+				culture = albanian
+				size = 3063320
+			}
+		}
+	}
+	s:STATE_BOSNIA = {
+		region_state:BOS = {
+			create_pop = {
+				culture = bosniak
+				size = 4179350
+			}
+		}
+	}
+	s:STATE_NORTHERN_THRACE = {
+		region_state:BUL = {
+			create_pop = {
+				culture = bulgarian
+				size = 2931570
+			}
+		}
+	}
+	s:STATE_BULGARIA = {
+		region_state:BUL = {
+			create_pop = {
+				culture = bulgarian
+				size = 5166121
+			}
+		}
+	}
+	s:STATE_SLOVENIA = {
+		region_state:SLO = {
+			create_pop = {
+				culture = slovene
+				size = 1984339
+			}
+		}
+	}
+	s:STATE_DALMATIA = {
+		region_state:CRO = {
+			create_pop = {
+				culture = croat
+				size = 827641
+			}
+		}
+	}
+	s:STATE_CROATIA = {
+		region_state:CRO = {
+			create_pop = {
+				culture = croat
+				size = 2720697
+			}
+		}
+	}
+	s:STATE_SLAVONIA = {
+		region_state:CRO = {
+			create_pop = {
+				culture = croat
+				size = 758662
+			}
+		}
+	}
+	s:STATE_ISTRIA = {
+		region_state:CRO = {
+			create_pop = {
+				culture = croat
+				size = 241434
+			}
+		}
+		region_state:ITA = {
+			create_pop = {
+				culture = north_italian
+				size = 842850
+			}
+		}
+	}
+	s:STATE_MONTENEGRO = {
+		region_state:SER = {
+			create_pop = {
+				culture = serb
+				size = 604950
+			}		
+		}
+	}
+	s:STATE_NORTHERN_SERBIA = {
+		region_state:SER = {
+			create_pop = {
+				culture = serb
+				size = 2623716
+			}
+		}
+	}
+	s:STATE_SOUTHERN_SERBIA = {
+		region_state:SER = {
+			create_pop = {
+				culture = serb
+				size = 3279314
+			}
+		}
+	}
+	s:STATE_CRETE = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 536504
+			}
+		}
+	}
+	s:STATE_WEST_AEGEAN_ISLANDS = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 177886
+			}
+		}
+	}
+	s:STATE_EAST_AEGEAN_ISLANDS = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 330360
+			}
+		}
+	}
+	s:STATE_ATTICA = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 4889636
+			}
+		}
+	}
+	s:STATE_THESSALIA = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 1132605
+			}
+		}
+	}
+	s:STATE_SKOPIA = {
+		region_state:MCD = {
+			create_pop = {
+				culture = greek
+				size = 2037936
+			}
+		}
+	}
+	s:STATE_MACEDONIA = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 1244368
+			}
+		}
+	}
+	s:STATE_WESTERN_THRACE = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 945922
+			}
+		}
+	}
+	s:STATE_IONIAN_ISLANDS = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 178083
+			}
+		}
+	}
+	s:STATE_PELOPONNESE = {
+		region_state:GRE = {
+			create_pop = {
+				culture = greek
+				size = 1602744
+			}
+		}
+	}
+	#Turkey
+	s:STATE_EASTERN_THRACE = {
+		region_state:TUR = {
+			create_pop = {
+				culture = turkish
+				size = 10748636
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+pm_paper_filing = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	is_default = yes
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 50
+		}
+
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 5
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 100
+		}
+		level_scaled = {
+			building_employment_bureaucrats_add = 5000
+		}
+	}
+}
+pm_simple_computer_filing = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 100
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 10
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_computer_add = 50
+		}
+		level_scaled = {
+			building_employment_bureaucrats_add = 1000
+		}
+	}
+}
+pm_advanced_computer_filing = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 150
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 20
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_computer_add = 75
+		}
+		level_scaled = {
+			building_employment_bureaucrats_add = 750
+		}
+	}
+}
+pm_supercomputer_filing = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 200
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 50
+		}
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			building_input_computer_add = 100
+		}
+		level_scaled = {
+			building_employment_bureaucrats_add = 500
+		}
+	}
+}

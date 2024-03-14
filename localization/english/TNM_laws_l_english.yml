@@ -1,0 +1,29 @@
+﻿l_english:
+#Population Growth
+ institution_population_management:0 "Population Management"
+ institution_population_management_desc:0 "Our country invests in measures used to control the population growth."
+ lawgroup_population_growth:0 "Population Management"
+ lawgroup_population_growth_desc:0 "Laws governing the growth of the nation's population." 
+ 
+ law_one_child_policy:0 "One Child Policy"
+ law_one_child_policy_desc:0 "Adults are only allowed one child outside of extenuating circumstances."
+ law_sex_education:0 "Sexual Education"
+ law_sex_education_desc:0 "Young adults are educated on sexual health and safety to prevent unwanted pregnancy and STIs."
+ law_no_population_controls:0 "No Population Controls"
+ law_no_population_controls_desc:0 "There are no laws attempting to control the birthrate in the country."
+ law_contraceptives_banned:0 "Contraceptives Banned"
+ law_contraceptives_banned_desc:0 "Contraceptives are banned in an attempt to increase the birthrate in the nation."
+ law_eugenics_promoted:0 "Eugenics"
+ law_eugenics_promoted_desc:0 "The ideas of eugenics are used to reduce the spread of unwanted cultures in the nation."
+ law_childbirth_promoted:0 "Incentives for Childbirth"
+ law_childbirth_promoted_desc:0 "We use different methods to increase the rate of birth in the nation."
+#Abortion Laws
+ lawgroup_abortion_laws:0 "Abortion"
+ lawgroup_abortion_laws_desc:0 "Laws governing the availability of abortion in the nation."
+
+ law_total_abortion_ban:0 "Total Ban"
+ law_total_abortion_ban_desc:0 "Under no circumstances are abortions allowed in the nation."
+ law_abortion_emergency_only:0 "Emergency Only"
+ law_abortion_emergency_only_desc:0 "Abortions are only permitted in extraordinary circumstances including, but not limited to, risk to the mother's life."
+ law_abortion_unrestricted:0 "Legal on Request"
+ law_abortion_unrestricted_desc:0 "There is little to no gestational limit and abortions are available on request."
