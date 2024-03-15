@@ -286,6 +286,9 @@ BEL = {
 	capital = STATE_FLANDERS
 }
 
+
+
+
 CAT = {
 	color = { 213  132  76 }
 	
@@ -462,7 +465,7 @@ BAV = {
 }
 
 BRA = {
-	color = { 116  92  39 }
+	color = { 0 0 0  }
 	
 	country_type = recognized
 
@@ -470,7 +473,7 @@ BRA = {
 	
 	cultures = { north_german }
 	capital = STATE_BRUNSWICK
-	is_named_from_capital = yes
+	
 }
 
 BRE = {
@@ -898,7 +901,7 @@ TRS = {
 }
 
 UKR = {
-	color = { 212 179 47 }
+	color = { 255 255 255 }
 	
 	country_type = recognized
 
@@ -909,7 +912,7 @@ UKR = {
 }
 
 CZH = {
-	color = { 43 89 202 }
+	color = { 0 74 4 }
 	
 	country_type = recognized
 
@@ -2587,7 +2590,7 @@ DKT = {
 	tier = principality
 	
 	cultures = { dakota }
-	capital = STATE_MINNESOTA
+	capital = STATE_IOWA
 }
 
 LKT = {
@@ -3908,7 +3911,7 @@ MAU = {
 
 	tier = kingdom
 
-	cultures = { maures haratin }
+	cultures = { dixie }
 	capital = STATE_MAURITANIA
 }
 
@@ -4054,7 +4057,7 @@ GAM = {
 
 # Cameroon
 CMR = {
-	color = { 22 121 17 }
+	color = { 30 31 162}
 
 	country_type = recognized
 

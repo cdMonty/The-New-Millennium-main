@@ -653,12 +653,12 @@ STATES = {
 	}
 	s:STATE_INGRIA = {
 		create_state = {
-			country = c:RUS
+			country = c:UBD
 			owned_provinces = {
 				x01A0E0
-				x607A9E
+				
 				xCD164E
-				xB64167
+				
 				xD1CBDD
 				xE97616
 				x57DF51
@@ -689,6 +689,14 @@ STATES = {
 				x86F5A3
 				x6F9858
 				xD0DA34
+			}
+		}
+		create_state = {
+			country = c:FIN
+			owned_provinces = {
+				xB64167
+				x607A9E
+				
 			}
 		}
 		add_homeland = cu:russian
@@ -2054,7 +2062,7 @@ STATES = {
 	}
 	s:STATE_WYOMING = {
 		create_state = {
-			country = c:USA
+			country = c:BRA
 			owned_provinces = {
 				x7105F8
 				x2CC9D7
@@ -2134,7 +2142,7 @@ STATES = {
 	}
 	s:STATE_MONTANA = {
 		create_state = {
-			country = c:USA
+			country = c:BRA
 			owned_provinces = {
 				x265A51
 				xB2AFD1
@@ -2274,7 +2282,7 @@ STATES = {
 	}
 	s:STATE_NORTH_DAKOTA = {
 		create_state = {
-			country = c:USA
+			country = c:BRA
 			owned_provinces = {
 				x8F0750
 				xF3EC53
@@ -2345,7 +2353,7 @@ STATES = {
 	}
 	s:STATE_SOUTH_DAKOTA = {
 		create_state = {
-			country = c:USA
+			country = c:BRA
 			owned_provinces = {
 				xE37FAD
 				x6D06D4
@@ -2411,7 +2419,7 @@ STATES = {
 	}
 	s:STATE_NEBRASKA = {
 		create_state = {
-			country = c:USA
+			country = c:BRA
 			owned_provinces = {
 				x90C040
 				xD5A04C
@@ -2482,7 +2490,7 @@ STATES = {
 	}
 	s:STATE_KANSAS = {
 		create_state = {
-			country = c:USA
+			country = c:MAU
 			owned_provinces = {
 				x2D821B
 				x24CC25
@@ -2602,7 +2610,7 @@ STATES = {
 	}
 	s:STATE_ARKANSAS = {
 		create_state = {
-			country = c:IVC
+			country = c:LOU
 			owned_provinces = {
 				xF205E8
 				x407080
@@ -2648,7 +2656,7 @@ STATES = {
 	}
 	s:STATE_MISSOURI = {
 		create_state = {
-			country = c:USA
+			country = c:TOG
 			owned_provinces = {
 				x50C080
 				xE30DBE
@@ -2702,7 +2710,7 @@ STATES = {
 	}
 	s:STATE_IOWA = {
 		create_state = {
-			country = c:USA
+			country = c:DKT
 			owned_provinces = {
 				x71153F
 				x9080C0
@@ -7468,7 +7476,7 @@ STATES = {
 	}
 	s:STATE_ONTARIO = {
 		create_state = {
-			country = c:CAN
+			country = c:USA
 			owned_provinces = {
 				xF6CE39
 				x36B818
@@ -7849,7 +7857,7 @@ STATES = {
 	}
 	s:STATE_QUEBEC = {
 		create_state = {
-			country = c:CAN
+			country = c:USA
 			owned_provinces = {
 				x5FA9ED
 				xCECCED
@@ -8497,7 +8505,7 @@ STATES = {
 	}
 	s:STATE_NEWFOUNDLAND = {
 		create_state = {
-			country = c:CAN
+			country = c:USA
 			owned_provinces = {
 				x74E14D
 				x8D790B
@@ -8803,7 +8811,7 @@ STATES = {
 	}
 	s:STATE_CUBA = {
 		create_state = {
-			country = c:CUB
+			country = c:IVC
 			owned_provinces = {
 				xF3F2C9
 				x61FC10
@@ -9438,7 +9446,7 @@ STATES = {
 			}
 		}
 		create_state = {
-			country = c:ROM
+			country = c:MOL
 			owned_provinces = {
 				x734EFF
 				xF40045
@@ -20388,7 +20396,7 @@ STATES = {
 	}
 	s:STATE_NEW_BRUNSWICK = {
 		create_state = {
-			country = c:CAN
+			country = c:USA
 			owned_provinces = {
 				xC91FD7
 				xEE2FFF
@@ -22193,20 +22201,15 @@ STATES = {
 	}
 	s:STATE_BAHAMAS = {
 		create_state = {
-			country = c:BAH
+			country = c:IVC
 			owned_provinces = {
 				x72C072
 				x4EBC79
 				x686279
+				x1E761E
 			}
 		}
-		create_state = {
-			country = c:GBR
-			owned_provinces = {
-				x7A6FA3
-			}
-			state_type = unincorporated
-		}
+		
 		add_homeland = cu:afro_antillean
 		add_homeland = cu:afro_caribbean
 	}
@@ -22306,18 +22309,14 @@ STATES = {
 	}
 	s:STATE_JAMAICA = {
 		create_state = {
-			country = c:JAM
+			country = c:IVC
 			owned_provinces = {
 				x535B49
 				x7070B8
-			}
-		}
-		create_state = {
-			country = c:GBR
-			owned_provinces = {
 				x1E761E
 			}
 		}
+		
 		add_homeland = cu:afro_caribbean
 	}
 	s:STATE_ORISSA = {
@@ -33746,7 +33745,7 @@ STATES = {
 	}
 	s:STATE_WEST_KARELIA = {
 		create_state = {
-			country = c:RUS
+			country = c:FIN
 			owned_provinces = {
 				x0A00AC
 				x1E964A
@@ -33916,11 +33915,6 @@ STATES = {
 				xFD8980
 				xFDCD89
 				xFEF24A
-			}
-		}
-		create_state = {
-			country = c:RUS
-			owned_provinces = {
 				x76BD66
 				xA40B1E
 				xBCEB2E
@@ -33929,10 +33923,11 @@ STATES = {
 				xFE27F7
 			}
 		}
+		
 		add_homeland = cu:finnish
 		add_homeland = cu:sami
 		add_homeland = cu:swedish
-		add_claim = c:SWE
+
 	}
 	s:STATE_ESTONIA = {
 		create_state = {
@@ -33987,8 +33982,8 @@ STATES = {
 				xF8BBB0
 				xE4E3DB
 				xBF2060
-				xFA8436
-				xF4B54B
+			
+				
 				xFD1424
 				x01E021
 				x898083
@@ -33996,9 +33991,17 @@ STATES = {
 				x4D08D8
 				xFCC2E1
 				x806121
+			
+			}
+		}
+		create_state = {
+			country = c:POL
+			owned_provinces = {
 				x4A8E5D
 				x8D4F76
 				xABA718
+				xF4B54B
+				xFA8436
 			}
 		}
 		add_homeland = cu:latvian
@@ -34041,7 +34044,7 @@ STATES = {
 	}
 	s:STATE_CHUKOTKA = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				xBAE43D
 				x3EBED3
@@ -35361,7 +35364,7 @@ STATES = {
 	}
 	s:STATE_EAST_KARELIA = {
 		create_state = {
-			country = c:RUS
+			country = c:FIN
 			owned_provinces = {
 				x0066B6
 				x0247D2
@@ -37205,7 +37208,7 @@ STATES = {
 	}
 	s:STATE_KAMCHATKA = {
 		create_state = {
-			country = c:RUS
+			country = c:FER
 			owned_provinces = {
 				x64DC15
 				xE6D321
@@ -37504,7 +37507,7 @@ STATES = {
 	}
 	s:STATE_OKHOTSK = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				xFB93D1
 				x416E8A
@@ -38278,7 +38281,7 @@ STATES = {
 	}
 	s:STATE_YAKUTSK = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				x831B22
 				xF94CE7
@@ -39430,7 +39433,7 @@ STATES = {
 	}
 	s:STATE_TRANS_BAIKAL = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				"x006991"
 				"x007CB1"
@@ -39856,7 +39859,7 @@ STATES = {
 	}
 	s:STATE_IRKUTSK = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				xA9D5A5
 				x85E6A4
@@ -40290,7 +40293,7 @@ STATES = {
 	}
 	s:STATE_TOMSK = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				x27851E
 				x5D0B05
@@ -40724,7 +40727,7 @@ STATES = {
 	}
 	s:STATE_TOBOLSK = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				x5C1788
 				xA39666
@@ -41032,7 +41035,7 @@ STATES = {
 	}
 	s:STATE_UPPER_YENISEYSK = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				x98E56D
 				x28B788
@@ -42693,7 +42696,7 @@ STATES = {
 	}
 	s:STATE_OB = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				xA07FBF
 				xBBC96E
@@ -43249,7 +43252,7 @@ STATES = {
 	}
 	s:STATE_URAL = {
 		create_state = {
-			country = c:RUS
+			country = c:SIB
 			owned_provinces = {
 				x2CD11E
 				x5775A5
@@ -44842,12 +44845,21 @@ STATES = {
 				x88E955
 				xD7127A
 				x60DEEE
+				
+				
+			
+				xA79D26
+				
+				x6122C5
+			}
+		}
+		create_state = {
+			country = c:FIN
+			owned_provinces = {
 				xE9C671
+				xDA2E04
 				xF4E44C
 				xAD3522
-				xA79D26
-				xDA2E04
-				x6122C5
 			}
 		}
 		add_homeland = cu:russian
@@ -44894,7 +44906,7 @@ STATES = {
 	}
 	s:STATE_BESSARABIA = {
 		create_state = {
-			country = c:MOL
+			country = c:UKR
 			owned_provinces = {
 				x622837
 				x1E1DEF
@@ -45109,7 +45121,7 @@ STATES = {
 	}
 	s:STATE_WEST_GALICIA = {
 		create_state = {
-			country = c:POL
+			country = c:CZH
 			owned_provinces = {
 				x90E060
 				x1161E0
@@ -45631,7 +45643,7 @@ STATES = {
 	}
 	s:STATE_SILESIA = {
 		create_state = {
-			country = c:POL
+			country = c:CZH
 			owned_provinces = {
 				xC108EA
 				x732DC0
@@ -45919,7 +45931,7 @@ STATES = {
 	}
 	s:STATE_BREST = {
 		create_state = {
-			country = c:BYE
+			country = c:POL
 			owned_provinces = {
 				x406020
 				x241A22
