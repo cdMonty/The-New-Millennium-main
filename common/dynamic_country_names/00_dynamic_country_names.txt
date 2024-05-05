@@ -3402,7 +3402,7 @@ KAZ = {
 	}
 	dynamic_country_name = { # Khanate
 		name = dyn_c_kazakh_khanate
-		adjective = dyn_c_kazakh_khanate_adj
+		adjective = "West Asia"
 		
 		is_main_tag_only = yes
 		priority = 0
@@ -3411,6 +3411,54 @@ KAZ = {
 			exists = scope:actor
 			scope:actor = {
 				has_law = law_type:law_monarchy
+			}
+			coa_def_independent_trigger = yes
+		}
+	}
+	dynamic_country_name = { # Communiust west asia
+		name = "West Asian Union"
+		adjective = "West Asia"
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			c:KAZ = {
+				has_law = law_type:law_council_republic
+			}
+			coa_def_independent_trigger = yes
+		}
+	}
+	dynamic_country_name = { # Theocratic west asia
+	name = "Neo Turkistan"
+	adjective = "West Asia"
+	
+	is_main_tag_only = yes
+	priority = 10
+	
+	trigger = {
+		exists = scope:actor
+		c:KAZ = {
+			has_law = law_type:law_theocracy
+		}
+		coa_def_independent_trigger = yes
+	}
+}
+	dynamic_country_name = { # West asia republic
+		name = "West Asian Federation"
+		adjective = "West Asia"
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+			c:KAZ = {
+				OR = {
+				has_law = law_type:law_presidential_republic
+				has_law = law_type:law_parliamentary_republic
+				}
 			}
 			coa_def_independent_trigger = yes
 		}
@@ -3454,33 +3502,23 @@ KAZ = {
 	}
 }
 
-SAV = {
-	dynamic_country_name = {
-		name = dyn_c_lyon
+TAN = {
+	dynamic_country_name = { 
+		name = "Neo Ottoman Empire"
+		adjective = "Ottoman"
 		
-		is_main_tag_only = no
-		priority = 1
-		
-		trigger = {
-			scope:actor = { 
-				capital = { 
-					state_region = s:STATE_RHONE 
-				}
-			}
-		}
-	}
-	dynamic_country_name = {
-		name = dyn_c_romandy
-		
-		is_main_tag_only = no
-		priority = 1
+		is_main_tag_only = yes
+		priority = 100000
 		
 		trigger = {
-			scope:actor = { 
-				capital = { 
-					state_region = s:STATE_WEST_SWITZERLAND
+			exists = scope:actor
+			c:TAN = {
+				ig:ig_armed_forces = {
+					is_in_government = yes
+
 				}
 			}
+
 		}
 	}
 }

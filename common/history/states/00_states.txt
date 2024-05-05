@@ -3241,13 +3241,7 @@
 		create_state = {
 			country = c:LUX
 			owned_provinces = {
-				x93FB2E x018061 x0141A0 x8041A0 x808061
-			}
-		}
-		create_state = {
-			country = c:EUM
-			owned_provinces = {
-				x800060
+				x93FB2E x018061 x0141A0 x8041A0 x808061 x800060 
 			}
 		}
 		add_homeland = cu:flemish
