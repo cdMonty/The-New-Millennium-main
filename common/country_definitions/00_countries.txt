@@ -1961,7 +1961,7 @@ CAN = {
 	
 	tier = kingdom
 	
-	cultures = { anglo_canadian franco_canadian }
+	cultures = { alayskan }
 	capital = STATE_ONTARIO
 }
 
@@ -4051,7 +4051,7 @@ GAM = {
 
 	tier = principality
 
-	cultures = { akan bambara mande }
+	cultures = { alayskan }
 	capital = STATE_GAMBIA
 }
 

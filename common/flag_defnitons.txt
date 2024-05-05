@@ -1,0 +1,15 @@
+
+
+ENG = {
+	flag_definition = {
+		coa = ENG_FRA
+		priority = 50000
+		trigger = {
+			exists = c:ENG
+			c:ENG = {
+				is_protectorate_of = c:FRA
+			}
+		}
+	}
+}
+
