@@ -11,6 +11,7 @@
     "replace_paths" : [
       "common/character_templates",
       "common/decisions",
+      "common/flag_definitions",
       "common/history/ai",
       "common/history/buildings",
       "common/history/characters",

@@ -43,9 +43,9 @@
 		}
 	}
 	s:STATE_ALASKA = {
-		region_state:USA = {
+		region_state:GAM = {
 			create_pop = {
-				culture = yankee
+				culture = alayskan
 				size = 627963
 			}
 		}

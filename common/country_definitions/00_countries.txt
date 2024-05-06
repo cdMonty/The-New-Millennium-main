@@ -100,7 +100,7 @@ AUS = {
 }
 
 USA = {
-	color = { 66  94  193 }
+	color = { 0 12 140 }
 	
 	country_type = colonial
 	

@@ -246,12 +246,22 @@ TAN= {
 	}
 }	
 
+USA= {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	textured_emblem = {
+		texture = "te_coa_USA.dds"
+		instance = { scale = { 1.00 1.00 } position = { 0.5 0.5 } }
+	}
+}	
+
 ENG_FRA= {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
 
 	textured_emblem = {
-		texture = "te_coa_ENG_fRA.dds"
+		texture = "te_coa_ENG_FRA.dds"
 		instance = { scale = { 1.00 1.00 } position = { 0.5 0.5 } }
 	}
 }

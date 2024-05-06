@@ -3523,6 +3523,31 @@ TAN = {
 	}
 }
 
+ENG = {
+	dynamic_country_name = { 
+		name = "Angleterre"
+		adjective = "Anglais"
+		
+		is_main_tag_only = yes
+		priority = 100000
+		
+		trigger = {
+			exists = c:FRA
+			exists = c:ENG
+			c:FRA = {
+				OR = {
+					has_diplomatic_pact = {
+						who = c:ENG
+						type = protectorate
+						is_initiator = yes
+					}
+				}
+				
+			}
+		}
+	}
+}
+
 ALD = {
 	dynamic_country_name = {
 		name = dyn_c_regency_of_algiers
